@@ -1,0 +1,5 @@
+chanpttt1010:
+  name: ${self:custom.prefix}-chanpttt1010
+  handler: src.chanpttt1010.handler.lambda_handler
+  layers:
+    - Ref: PythonRequirementsLambdaLayer

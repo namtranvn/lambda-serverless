@@ -1,0 +1,5 @@
+thiemcun203:
+  name: ${self:custom.prefix}-thiemcun203
+  handler: src.thiemcun203.crawl_news.lambda_cafef_handler
+  layers:
+    - Ref: PythonRequirementsLambdaLayer

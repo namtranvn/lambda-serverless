@@ -1,0 +1,5 @@
+nhatminh46vn:
+  name: ${self:custom.prefix}-nhatminh46vn
+  handler: src.nhatminh46vn.handler.lambda_handler
+  layers:
+    - Ref: PythonRequirementsLambdaLayer

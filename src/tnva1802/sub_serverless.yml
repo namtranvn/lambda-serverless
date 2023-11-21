@@ -1,0 +1,5 @@
+tnva1802:
+  name: ${self:custom.prefix}-tnva1802
+  handler: src.tnva1802.handler.lambda_handler
+  layers:
+    - Ref: PythonRequirementsLambdaLayer

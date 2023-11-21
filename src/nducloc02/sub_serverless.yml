@@ -1,0 +1,5 @@
+nducloc02:
+  name: ${self:custom.prefix}-nducloc02
+  handler: src.nducloc02.handler.lambda_handler
+  layers:
+    - Ref: PythonRequirementsLambdaLayer

@@ -1,0 +1,5 @@
+syun1208:
+  name: ${self:custom.prefix}-syun1208
+  handler: src.syun1208.handler.lambda_handler
+  layers:
+    - Ref: PythonRequirementsLambdaLayer

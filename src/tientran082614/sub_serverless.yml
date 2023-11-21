@@ -1,0 +1,5 @@
+tientran082614:
+  name: ${self:custom.prefix}-tientran082614
+  handler: src.tientran082614.handler.lambda_handler
+  layers:
+    - Ref: PythonRequirementsLambdaLayer

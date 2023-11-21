@@ -1,0 +1,5 @@
+tinhnguyen1011:
+  name: ${self:custom.prefix}-tinhnguyen1011
+  handler: src.tinhnguyen1011.handler.lambda_handler
+  layers:
+    - Ref: PythonRequirementsLambdaLayer

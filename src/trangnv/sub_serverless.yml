@@ -1,0 +1,5 @@
+trangnv:
+  name: ${self:custom.prefix}-trangnv
+  handler: src.trangnv.handler.lambda_handler
+  layers:
+    - Ref: PythonRequirementsLambdaLayer

@@ -1,0 +1,5 @@
+dunj1710:
+  name: ${self:custom.prefix}-dunj1710
+  handler: src.dunj1710.crawl_lambda.lambda_handler
+  layers:
+    - Ref: PythonRequirementsLambdaLayer

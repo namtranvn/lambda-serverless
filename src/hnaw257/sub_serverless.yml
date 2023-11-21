@@ -1,0 +1,5 @@
+hnaw257:
+  name: ${self:custom.prefix}-hnaw257
+  handler: src.hnaw257.handler.lambda_handler
+  layers:
+    - Ref: PythonRequirementsLambdaLayer

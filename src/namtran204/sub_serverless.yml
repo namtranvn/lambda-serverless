@@ -1,0 +1,5 @@
+namtran204:
+  name: ${self:custom.prefix}-namtran204
+  handler: src.namtran204.handler.lambda_handler
+  layers:
+    - Ref: PythonRequirementsLambdaLayer

@@ -1,0 +1,5 @@
+dungpnt1998:
+  name: ${self:custom.prefix}-dungpnt1998
+  handler: src.dungpnt1998.handler.lambda_handler
+  layers:
+    - Ref: PythonRequirementsLambdaLayer

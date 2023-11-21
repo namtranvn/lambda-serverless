@@ -1,0 +1,5 @@
+huynhduc123:
+  name: ${self:custom.prefix}-huynhduc123
+  handler: src.huynhduc123.handler.lambda_handler
+  layers:
+    - Ref: PythonRequirementsLambdaLayer

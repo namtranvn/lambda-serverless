@@ -1,0 +1,5 @@
+hieund3579:
+  name: ${self:custom.prefix}-hieund3579
+  handler: src.hieund3579.handler.lambda_handler
+  layers:
+    - Ref: PythonRequirementsLambdaLayer

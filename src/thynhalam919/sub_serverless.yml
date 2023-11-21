@@ -1,0 +1,5 @@
+thynhalam919:
+  name: ${self:custom.prefix}-thynhalam919
+  handler: src.thynhalam919.handler.lambda_handler
+  layers:
+    - Ref: PythonRequirementsLambdaLayer

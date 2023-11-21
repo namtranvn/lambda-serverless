@@ -1,0 +1,5 @@
+phuonganh180402:
+  name: ${self:custom.prefix}-phuonganh180402
+  handler: src.phuonganh180402.handler.lambda_handler
+  layers:
+    - Ref: PythonRequirementsLambdaLayer

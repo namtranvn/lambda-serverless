@@ -1,0 +1,5 @@
+taivlc1182:
+  name: ${self:custom.prefix}-taivlc1182
+  handler: src.taivlc1182.handler.lambda_handler
+  layers:
+    - Ref: PythonRequirementsLambdaLayer

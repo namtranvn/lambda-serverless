@@ -1,0 +1,5 @@
+tris0410:
+  name: ${self:custom.prefix}-tris0410
+  handler: src.tris0410.handler.lambda_handler
+  layers:
+    - Ref: PythonRequirementsLambdaLayer
